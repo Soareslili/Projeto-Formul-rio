@@ -1,0 +1,79 @@
+/* Estilo geral */
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #333;
+  }
+  
+  /* Seção de contato */
+  .contact-section {
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 8px #CB6CE6;
+    border-radius: 10px;
+  }
+  
+  .contact-section h2 {
+    font-size: 2rem;
+    color: #CB6CE6;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  /* Estilo do formulário */
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 95%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    border-color: #CB6CE6;
+    box-shadow: 0 0 5px rgba(203, 108, 230, 0.5);
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background: #CB6CE6;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background: #a94dc4;
+  }
+  
